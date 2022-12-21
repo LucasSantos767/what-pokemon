@@ -1,0 +1,19 @@
+version: '3.7'
+
+networks:
+  what-poke:
+    driver: bridge 
+
+services:
+  whatpokef:
+    build: .
+    entrypoint: sh ./.docker/entrypoint.sh
+    container_name: whatpokef
+    ports:
+      - 8080:8080
+    restart: always
+    tty: true
+    networks:
+      - what-poke
+    volumes:
+      - .:/home/front

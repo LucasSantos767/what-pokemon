@@ -27,3 +27,15 @@
     padding-top: 100%;
     position: absolute;
 }
+
+.inputP {
+    font-family: 'Pokemon Pixel Font Regular', monospace;
+    height: 5vh;
+    border-radius: 10px;
+    border: 3px solid #080411;
+    background-color: rgb(138, 172, 70);  
+}
+
+.inputP:focus{
+    outline: none;
+}

@@ -13,3 +13,17 @@
     background-position-y: 100%;
     filter: brightness(0.8);
 }
+
+.pokedex {
+    position: relative;
+}
+
+.pokeimg {
+    z-index: -1;
+    height: 80vh;
+}
+
+.FormD {
+    padding-top: 100%;
+    position: absolute;
+}
